@@ -1,23 +1,64 @@
+:root {
+  /* CSS variables */
+  --primary-color: #5762D5;
+  --highlight-color: #FF6542;
+  --dark: #32292F;
+  --light: #F1F2EB;
+  --mid: #575366;
+  --head-font: 'Teko', 'Kdam Thmor Pro', 'Impact', display;
+  --body-font: 'Dosis', 'Abel', Helvetica, sans-serif;
+}
+
 * {
+  /* Initial reset */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: var(--body-font);
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@200;300;400;500;600;700;800&&family=Kdam+Thmor+Pro&family=Teko:wght@300;400;500;600;700&display=swap');
+
+header {
+  height: 15vh;
 }
 
-p {
-  margin: 0;
+nav li {
+  text-decoration: none;
+  font-family: var(--body-font);
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.hero-banner {
+  background-image: url(../images/--1design-g399f31c07_1920.jpg);
+  background-position: right -250px bottom -50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+
+h1 {
+  font-family: var(--body-font);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#subtitle {
+  font-family: var(--body-font);
+  font-size: 1.5rem;
+  text-transform: none;
+}
+
+h2 {
+  font-family: var(--head-font);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.8rem;
 }
