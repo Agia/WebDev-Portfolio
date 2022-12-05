@@ -1,68 +1,119 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Alyssa Argento // Web Developer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@200;300;400;500;600;700;800&family=Kdam+Thmor+Pro&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400;500;700&family=Bebas+Neue&family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title><Alyssa Argento/> // Web Developer</title>
 </head>
-
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <img src="#" alt="Avatar">
+    <header>
+        <img src="./images/cat-with-yarn.png" alt="Memoji waving hello." id="logo">
+        <nav>
+            <ul id="navbar">
+                <li><a href="#logo">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div id="intro-content">
+            <h1>Hello, I'm <span class="standout">Alyssa Argento</span></h1>
+            <p id="subtitle">Web developer. Lifelong learner.</p>
+        </div>
+    </section>
+
+    <main>
+        <section id="about">
+            <div class="about-content">
+                <img src="./images/memoji-idea.png" alt="Memoji having a lightbulb moment.">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit ipsa libero, aut minus itaque debitis nam accusantium officiis aspernatur maxime architecto! Voluptate culpa eum voluptatibus, ratione adipisci hic alias.</p>
+            </div>
+            <div class="about-content">
+              <img src="./images/memoji-laptop.png" alt="Memoji typing at a Macbook laptop.">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laborum, minus ipsam maiores impedit aliquam voluptatum, ipsa doloremque commodi consequatur, necessitatibus quod. Molestias provident culpa quidem, harum sed ab fugit?</p>
+            </div>
+            <div class="about-content">
+                <img src="./images/memoji-thumbs-up.png" alt="Memoji giving a thumbs up.">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint molestias, distinctio error esse voluptatibus odio reprehenderit accusantium, doloremque corporis illum aliquam vitae ipsum quis exercitationem sequi nostrum hic iusto saepe?</p>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="gallery">
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>Acme (Meep Meep!)</h3>
+                    </figcaption>
+                </figure>
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>Mo's Tavern</h3>
+                    </figcaption>
+                </figure>
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>Geralt</h3>
+                    </figcaption>
+                </figure>
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>The Amazing Maurice</h3>
+                    </figcaption>
+                </figure>
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>Kwik-E-Mart</h3>
+                    </figcaption>
+                </figure>
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>The Sandman</h3>
+                    </figcaption>
+                </figure>
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>Open Source Awesome</h3>
+                    </figcaption>
+                </figure>
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>Cerberus</h3>
+                    </figcaption>
+                </figure>
+                <figure class="project-item">
+                    <img src="" alt="">
+                    <figcaption>
+                        <h3>Commander Shepard</h3>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-links"><a href="https://github.com">Github</a></div>
+            <div class="contact-links"><a href="mailto:alyssaargento@gmail.com">Email</a></div>
+            <div class="contact-links"><a href="https://linkedin.com">LinkedIn</a></div>
+            <div class="contact-links"><a href="https://agia.github.io">Website</a></div>
+        </section>
+
+        <footer><p>Copyright 2022</p></footer>
+    </main>
     
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h1>Hello, I'm <span class="standout">Alyssa Argento.</span></h1>
-      <h2 id="subtitle">Web Developer. Lifelong learner.</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div class="text-img-l">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus eius hic perspiciatis ex aut itaque, vitae tempora temporibus libero, cumque, earum sit quos delectus voluptatum consequuntur dignissimos? Itaque, dolorum.
-        </p>
-        <img src="./images/memoji-idea.png" alt="Dark-haired memoji having a lightbulb moment.">
-      </div>
-      <div class="text-img-r">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus eius hic perspiciatis ex aut itaque, vitae tempora temporibus libero, cumque, earum sit quos delectus voluptatum consequuntur dignissimos? Itaque, dolorum.</p>
-        <img src="./images/memoji-laptop.png" alt="Dark-haired memoji typing on a Macbook laptop.">
-      </div>
-      <div class="text-img-l">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus eius hic perspiciatis ex aut itaque, vitae tempora temporibus libero, cumque, earum sit quos delectus voluptatum consequuntur dignissimos? Itaque, dolorum.</p>
-        <img src="./images/memoji-thumbs-up.png" alt="Dark-haired memoji giving a thumbs up.">
-      </div>
-    </section>
-
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
 </body>
-
 </html>
