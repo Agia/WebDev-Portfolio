@@ -38,8 +38,8 @@ header {
     padding: 0;
     list-style: none;
     display: flex;
-    min-width: 30vw;
-    justify-content: space-around;
+    min-width: 50vw;
+    justify-content: space-between;
 }
 
 #logo {
@@ -59,29 +59,32 @@ header {
     font-family: var(--title-text);
     font-size: 2.1rem;
     color: var(--primary-color);
+    padding: 0 10px;
+}
+
+#navbar a:hover {
+    background-color: var(--primary-color);
+    color: var(--light);
 }
 
 /* HERO / INTRO */
 #intro {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
     height: 90vh;
     font-family: var(--highlight-text);
-    background-image: url(../images/laptop-illustration.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 18vw;
 }
 
 #intro-content {
-    margin-right: 35vw;
-    text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    margin-left: 120px;
 }
 
 h1 {
-    margin-bottom: -5px;
+    margin-bottom: -15px;
     font-size: 3rem;
     color: var(--primary-color);
 }
@@ -89,10 +92,23 @@ h1 {
 .standout {
     background-color: var(--primary-color);
     color: var(--light);
+    padding: 0 10px;
 }
 
 #subtitle {
     font-size: 2rem;
+}
+
+#hero {
+    width: 50vw;
+    display: flex;
+
+}
+
+#hero img {
+    width: 40vw;
+    object-fit: contain;
+    /* object-position: 50% 50%; */
 }
 
 /* ABOUT ME */
@@ -102,6 +118,8 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px 0;
+    background-color: var(--primary-color);
+    color: var(--light);
 }
 
 .about-content {
@@ -115,6 +133,11 @@ h1 {
     max-height: 200px;
     max-width: 200px;
     margin-right: 40px;
+}
+
+p {
+    font-family: var(--body-text);
+    text-align: center;
 }
 
 /* WORK / PORTFOLIO */
@@ -144,47 +167,28 @@ h1 {
     #logo {
         display: none;
     }
-    nav {
-      margin: 0 auto;
-    }
     #navbar {
-        width: 80vw;
-        justify-content: space-between;
+        width: 90vw;
+        margin-left: 3vw;
     }
     #intro {
-        background-position: 50%;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #intro-content {
-      width: 90vw;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-left: 3vw;
-      margin-bottom: 30vh;
+        text-align: center;
+        margin-left: 0px;
     }
 
     h1 {
-        font-size: 1.8rem;
-        color: var(--light);
-        margin-bottom: 5px;
-    }
-
-    .standout {
-      background-color: var(--light);
-      color: var(--primary-color);
-
+        font-size: 2.4rem;
     }
 
     #subtitle {
-        margin-top: -5px;
-        font-size: 1.45rem;
-        color: var(--dark);
-    }
-
-    #intro-content {
-        margin-top: 50px;
-        align-items: center;
+        font-size: 1.7rem;
     }
 
     .about-content {
@@ -192,9 +196,4 @@ h1 {
         flex-direction: column;
         align-items: center;
     }
-
-    @media only screen and (min-width: 800px) and (max-width: 1150px) {
-
-    }
-
 }
