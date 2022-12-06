@@ -13,6 +13,7 @@ This provides an easily-accessible reference, for both myself and others, to see
 ![Screenshot of a portfolio webpage.](./images/screenshot-website-fullscreen.jpeg)
 </br>
 ----
+
 ### Tablet
 
 ![Screenshot of mobile-width webpage](./images/screenshot-tablet.jpeg)

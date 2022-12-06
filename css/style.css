@@ -253,7 +253,7 @@ footer {
     margin-bottom: 10px;
   }
   #contact {
-    height: 400px;
+    height: 500px;
   }
   #links {
     flex-direction: column;
@@ -299,7 +299,7 @@ footer {
   }
 
   .gallery {
-    max-width: 600px;
+    max-width: 90%;
     grid-template-columns: auto auto;
     grid-template-areas: 
     'project-lead project-lead';
@@ -308,7 +308,7 @@ footer {
 
 @media only screen and (max-width: 1000px) {
   .gallery {
-    max-width: 800px;
+    max-width: 95%;
     margin: 0 auto;
     grid-template-columns: auto auto;
   }
