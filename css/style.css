@@ -242,7 +242,7 @@ footer {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
   .gallery {
-    max-width: 350px;
+    max-width: 95%;
     display: block;
     grid-template-columns: auto;
   }

@@ -1,3 +1,5 @@
+# Personal Portfolio Website
+
 ## Description
 
 A portfolio to showcase my previous, and future, web development work.
@@ -11,7 +13,7 @@ This provides an easily-accessible reference, for both myself and others, to see
 ### Fullscreen
 
 ![Screenshot of a portfolio webpage.](./images/screenshot-website-fullscreen.jpeg)
-</br>
+
 ----
 
 ### Tablet
@@ -19,11 +21,13 @@ This provides an easily-accessible reference, for both myself and others, to see
 ![Screenshot of mobile-width webpage](./images/screenshot-tablet.jpeg)
 
 ----
+
 ### Mobile
 
 ![Screenshot of mobile-width webpage](./images/screenshot-mobile.jpeg)
 
 ----
+
 ## Credits
 
 Much gratitude to the following for their fine images, which I have repurposed to make my portfolio far less barren:
@@ -33,7 +37,7 @@ Much gratitude to the following for their fine images, which I have repurposed t
 - [Aleksander Pasaric](https://www.pexels.com/photo/what-is-this-is-all-real-text-with-yellow-background-3280211/)
 - [Khairul Niezam](https://www.pexels.com/@niezam/)
 - [Mason Cook](https://www.pexels.com/photo/blue-light-mask-2091399/)
-- [Ash @ModernAfflatus: ](https://www.pexels.com/photo/yellow-and-black-striped-3662579/)
+- [Ash @ModernAfflatus](https://www.pexels.com/photo/yellow-and-black-striped-3662579/)
 
 Thanks also to the following for the icons used in the Contact section:
 
