@@ -108,11 +108,10 @@ h1 {
 #hero img {
     width: 40vw;
     object-fit: contain;
-    /* object-position: 50% 50%; */
 }
 
 h2 {
-  margin: 0 10px 10px 0;
+  margin: 15px 10px 10px 0;
   padding: 5px 15px 2px;
   font-family: var(--title-text);
   font-size: 4rem;
@@ -121,11 +120,6 @@ h2 {
 
 /* ABOUT ME */
 #about {
-    /* display: flex; */
-    /* justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap; */
     padding: 30px 0;
     background-color: var(--primary-color);
     color: var(--light);
@@ -183,7 +177,6 @@ p {
   border: 7px var(--primary-color) solid;
   margin: 0;
   overflow: hidden;
-  /* background-color: var(--primary-color); */
 }
 
 .project-img {
@@ -217,7 +210,6 @@ h3 {
   font-size: 1.4rem;
   text-align: right;
   text-transform: uppercase;
-  /* z-index: 1; */
   padding-right: 10px;
 
 }
