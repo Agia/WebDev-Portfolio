@@ -18,3 +18,9 @@ Much gratitude to the following for their fine images, which I have repurposed t
 - [Linda Eller Shein](https://www.pexels.com/photo/red-and-yellow-stop-sticker-1749900/)
 - [Aleksander Pasaric](https://www.pexels.com/photo/what-is-this-is-all-real-text-with-yellow-background-3280211/)
 - [Khairul Niezam](https://www.pexels.com/@niezam/)
+- [Mason Cook](https://www.pexels.com/photo/blue-light-mask-2091399/)
+- [Ash @ModernAfflatus: ](https://www.pexels.com/photo/yellow-and-black-striped-3662579/)
+
+Thanks also to the following for the icons used in the Contact section:
+
+- [Icons8](https://icons8.com)
