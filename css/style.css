@@ -3,7 +3,7 @@
 
 /* VARIABLES */
 :root {
-    --primary-color: #5762D5;
+    --primary-color: #5762d5;
     --dark: #32292F;
     --light: #F1F2EB;
     --mid-color: #575364;
@@ -21,6 +21,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+
 }
 
 /* HEADER & NAVBAR */
@@ -112,6 +113,15 @@ h1 {
 }
 
 /* ABOUT ME */
+h2 {
+  padding: 5px 15px 2px;
+  text-align: right;
+  font-family: var(--title-text);
+  font-size: 3rem;
+  background-color: var(--light);
+  color: var(--primary-color);
+
+}
 #about {
     display: flex;
     justify-content: space-around;
@@ -142,27 +152,94 @@ p {
 
 /* WORK / PORTFOLIO */
 #work {
-
+  max-width: 100vw;
+  margin: 0 auto;
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  /* grid-template-rows: repeat(3, 300px); */
+  grid-gap: 10px;
+}
+
+.project-item {
+  border: 10px var(--primary-color) solid;
+  margin: 0;
+  overflow: hidden;
+  /* background-color: var(--primary-color); */
+}
+
+.project-img {
+  object-fit: cover;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+figcaption {
+  margin: -20px 0px;
+}
+
+h3 {
+  font-family: var(--highlight-text);
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  text-align: right;
+  text-transform: uppercase;
+  /* z-index: 1; */
+  padding-right: 10px;
 
 }
 
 /* CONTACT */
 #contact {
-    background-color: darkorange;
+    background-color: var(--primary-color);
     display: flex;
-    
-
+    padding: 20px 0;
 }
 
 /* FOOTER */
 
 
 /* MEDIA QUERIES */
+
+/* @media (max-width: 300px) {
+  #navbar {
+    max-width:300px;
+  }
+} */
+
+@media (max-width: 500px) {
+  /* h1 {
+    font-size: 1.2rem;
+  }
+
+  #intro-text {
+    margin: 0 auto;
+  }
+  #subtitle {
+    font-size: 1.3rem;
+  } */
+  .gallery {
+    max-width: 350px;
+    grid-template-columns: 250px;
+    display: block;
+  }
+  .project-item {
+    margin-bottom: 10px;
+  }
+
+  #contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media (max-width: 800px) {
     #logo {
         display: none;
@@ -196,4 +273,18 @@ p {
         flex-direction: column;
         align-items: center;
     }
+
+    .gallery {
+      max-width: 600px;
+      grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 1000px) {
+  .gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(5, 300px);
+  }
 }

@@ -9,3 +9,12 @@ This provides an easily-accessible reference, for both myself and others, to see
 
 <!-- TO ADD -->
 ![Screenshot of a portfolio webpage.](images/screenshot.png)
+
+## Credits
+
+Much gratitude to the following for their fine images, which I have repurposed to make my portfolio far less barren:
+
+- [Moose Photos](https://www.pexels.com/@moose-photos-170195/)
+- [Linda Eller Shein](https://www.pexels.com/photo/red-and-yellow-stop-sticker-1749900/)
+- [Aleksander Pasaric](https://www.pexels.com/photo/what-is-this-is-all-real-text-with-yellow-background-3280211/)
+- [Khairul Niezam](https://www.pexels.com/@niezam/)
