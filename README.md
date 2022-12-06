@@ -6,19 +6,23 @@ This provides an easily-accessible reference, for both myself and others, to see
 
 ## Usage
 
-[View live site on Github Pages](https://agia.github.io/webdev-portfolio)
-#### Fullscreen
+[**View live site on Github Pages**](https://agia.github.io/webdev-portfolio)
+
+### Fullscreen
 
 ![Screenshot of a portfolio webpage.](./images/screenshot-website-fullscreen.jpeg)
-
-#### Tablet
+</br>
+----
+### Tablet
 
 ![Screenshot of mobile-width webpage](./images/screenshot-tablet.jpeg)
 
-#### Mobile
+----
+### Mobile
 
 ![Screenshot of mobile-width webpage](./images/screenshot-mobile.jpeg)
 
+----
 ## Credits
 
 Much gratitude to the following for their fine images, which I have repurposed to make my portfolio far less barren:
